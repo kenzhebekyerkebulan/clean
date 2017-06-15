@@ -35,7 +35,7 @@ VK.init({apiId: 5855237});
 </script>
 <meta name="viewport" content="width=1616px, initial-scale=1.0">
 <meta name="theme-color" content="#333333"/>
-<title>Заказать уборку2</title>
+<title>Заказать уборку</title>
 <style>
 body{
 	overflow-wrap: break-word;
