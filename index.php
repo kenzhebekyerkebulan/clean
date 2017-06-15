@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html>
 <head lang="ru">
-allah akbarττττ
 <meta charset="UTF-8"/>
 <meta name="format-detection" content="telephone=no">
 <meta name="description" content="">
