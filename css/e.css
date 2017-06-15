@@ -1,0 +1,35 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'csans';
+	src: url('../fonts/clearsans-regular.eot');
+	src: url('../fonts/clearsans-regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/clearsans-regular.woff2') format('woff2'),
+	url('../fonts/clearsans-regular.woff') format('woff'),
+	url('../fonts/clearsans-regular.ttf') format('truetype'),
+	url('../fonts/clearsans-regular.svg#clear_sansregular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+
+}
+@font-face {
+	font-family: 'csans';
+	src: url('../fonts/clearsans-bold.eot');
+	src: url('../fonts/clearsans-bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/clearsans-bold.woff2') format('woff2'),
+	url('../fonts/clearsans-bold.woff') format('woff'),
+	url('../fonts/clearsans-bold.ttf') format('truetype'),
+	url('../fonts/clearsans-bold.svg#clear_sansbold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: "csans";
+	src: url("../fonts/ClearSansMedium.eot");
+	src: url("../fonts/ClearSansMedium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ClearSansMedium.woff") format("woff"),
+	url("../fonts/ClearSansMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 600;
+}

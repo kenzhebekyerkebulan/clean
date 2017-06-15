@@ -1,0 +1,82 @@
+div.pro-car-out{
+	width:100%;
+	/*min-width:1210px;
+	max-width:1920px;*/
+	margin:0 auto;
+	text-align:center;
+	position:relative;
+}
+div.pro-car-out a.arrow{
+	text-decoration:none;
+	position:absolute;
+	top:0;
+	bottom:0;
+	margin:auto;
+	height:100%;
+	width:50px;
+	display:block;
+}
+div.pro-car-out a.arrow.left{
+	left:-40px;
+}
+div.pro-car-out a.arrow.right{
+	right:-40px;
+}
+div.pro-car-out a.arrow.left::after,
+div.pro-car-out a.arrow.right::after{
+	content:'';
+	display:block;
+	height:25px;
+	width:25px;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	border-right:2px solid #029990;
+	border-top:2px solid #029990;
+	border-top-right-radius:7px;
+	transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+}
+div.pro-car-out a.arrow.left::after{
+	transform:rotate(225deg);
+	-webkit-transform:rotate(225deg);
+}
+div.pro-car-out div.pro-carousel{
+	width:100%;
+	margin:0 auto;
+	text-align:left;
+	overflow:hidden;
+	position:relative;
+}
+div.pro-carousel .slide-box{
+	float:left;
+	position:relative;
+	left:0;
+	list-style:none;
+	padding:0;
+	margin:0;
+	-webkit-transition:0.5s all;
+	transition:0.5s all;
+	width:50000px;
+}
+div.pro-carousel[data-type='2'] .slide-box,
+div.pro-carousel[data-type='6'] .slide-box{
+	transition:0s all;
+	-webkit-transition:0s all;
+}
+.ready div.pro-carousel .slide{
+	float:left;
+	overflow:hidden;
+	position:relative;
+	display:block;
+	text-decoration:none;
+	color:#000;
+	-webkit-user-select: none;
+	/* user-select -- СЌС‚Рѕ РЅРµСЃС‚Р°РЅРґР°СЂС‚РЅРѕРµ СЃРІРѕР№СЃС‚РІРѕ */
+	-moz-user-select: none;
+	/* РїРѕСЌС‚РѕРјСѓ РЅСѓР¶РЅС‹ РїСЂРµС„РёРєСЃС‹ */
+	-ms-user-select: none;
+}
